@@ -12,7 +12,7 @@
 # To explore all Habitat-maintained and community-contributed packages,
 # visit the Habitat Builder depot at https://bldr.habitat.sh/#/pkgs.
 
-pkg_name=sample-node-app
+pkg_name=sample-node-appp
 pkg_origin=mccarey
 pkg_version="1.1.0"
 pkg_deps=(core/node)
