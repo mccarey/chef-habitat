@@ -23,6 +23,11 @@ pkg_deps=(core/node)
 #
 # Here, we're implementing the do_build and do_install callbacks
 # to install dependencies and assemble the application package.
+pkg_exports=(
+ [port]=8000
+)
+
+pkg_exposes=(port)
 
 do_build() {
 
